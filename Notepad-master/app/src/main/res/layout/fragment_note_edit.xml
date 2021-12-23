@@ -1,0 +1,40 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutNoteEdit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <!-- Enables scrolling in long notes -->
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical" >
+
+        <!-- View containing note contents -->
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top"
+            android:ems="10"
+            android:hint="@string/edit_text"
+            android:inputType="textMultiLine|textCapSentences"
+            android:paddingTop="@dimen/padding_top_bottom"
+            android:paddingBottom="@dimen/padding_top_bottom"
+            android:paddingLeft="@dimen/padding_left_right"
+            android:paddingRight="@dimen/padding_left_right"
+            android:textColorHint="@color/text_color_hint"
+            android:background="@null" >
+
+            <requestFocus />
+        </EditText>
+
+    </ScrollView>
+
+</LinearLayout>

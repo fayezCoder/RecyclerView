@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="action_cancel">취소</string>
+    <string name="action_close">닫기</string>
+    <string name="action_delete">삭제</string>
+    <string name="action_discard">버리기</string>
+    <string name="action_edit">편집</string>
+    <string name="action_export">보내기</string>
+    <string name="action_font_size">Font size</string>
+    <string name="action_new">새 메모</string>
+    <string name="action_save">저장</string>
+    <string name="action_settings">설정</string>
+    <string name="action_share">공유</string>
+    <string name="action_export_filename">Exported filename</string>
+    <string name="action_sort_by">정렬 순서</string>
+    <string name="app_name">노트패드</string>
+    <string name="app_name_debug">Write Note</string>
+    <string name="cab_note_selected">선택됨</string>
+    <string name="cab_notes_selected">선택됨</string>
+    <string name="changes_discarded">변경 취소됨</string>
+    <string name="dialog_about_message">Write Note: a simple note app\n\n&#169; %d fayez Almutairi\nfayezcoder@gmail.com</string>
+    <string name="dialog_about_title">노트패드 정보</string>
+    <string name="dialog_are_you_sure">노트를 삭제하시겠어요?</string>
+    <string name="dialog_delete_button_title">노트 삭제</string>
+    <string name="dialog_delete_button_title_plural">노트 삭제</string>
+    <string name="dialog_save_button_title">변경 저장</string>
+    <string name="dialog_save_changes">변경 내용을 저장하시겠어요?</string>
+    <string name="draft_restored">임시 복구됨</string>
+    <string name="draft_saved">임시 저장됨</string>
+    <string name="double_tap">팁: 문장 더블-탭으로 편집하기</string>
+    <string name="edit_note">노트 편집</string>
+    <string name="edit_text">여기에 메모 내용을 입력하세요</string>
+    <string name="empty_note">메모 내용이 없습니다</string>
+    <string name="error_exporting_notes">노트 내보니기 실패</string>
+    <string name="error_importing_notes">노트 불러오기 실패</string>
+    <string name="error_loading_list">노트 목록 읽기 실패</string>
+    <string name="error_loading_note">노트 읽기 실패</string>
+    <string name="failed_to_save">오류: 노트 저장 실패</string>
+    <string name="first_run">노트패드입니다!\n\n새 노트를 생성하려면 + 기호를 탭 하세요</string>
+    <string name="first_view">메모를 수정하려면 본문을 더블-탭 하거나 연필을 탭 하세요</string>
+    <string name="import_notes">노트 가져오기</string>
+    <string name="loading_external_file">외부 파일을 읽기는 지원하지 않음</string>
+    <string name="no_notes_found">새 노트를 만드세요</string>
+    <string name="note_deleted">노트 삭제됨</string>
+    <string name="note_exported_to">노트 보내기</string>
+    <string name="note_saved">노트 저장됨</string>
+    <string name="notes_deleted">노트 삭제</string>
+    <string name="notes_exported_to">노트 보내기</string>
+    <string name="note_imported_successfully">노트 불러오기 성공</string>
+    <string name="notes_imported_successfully">노트 불러오기 성공</string>
+    <string name="pref_title_show_dialogs">저장전에 물어보기</string>
+    <string name="send_to">노트 공유하기&#8230;</string>
+    <string name="view_note">노트 보기</string>
+    <string name="pref_title_show_date">날짜/시간 보이기</string>
+    <string name="action_theme">Theme</string>
+    <string name="pref_title_direct_edit">Edit notes directly</string>
+    <string name="pref_title_markdown">Markdown/HTML support</string>
+    <string name="action_print">Print</string>
+    <string name="action_start_selection">Select notes</string>
+    <string name="action_select_all">Select all</string>
+    <string name="no_notes_to_select">No notes to select</string>
+    <string name="document">%1$s Document</string>
+    <string name="no_notes_to_export">No notes selected to export</string>
+    <string name="no_notes_to_delete">No notes selected to delete</string>
+    <string name="check_for_updates">Check for Updates</string>
+    <string name="preview_app_title">Notepad app preview</string>
+    <string name="preview_app_message">Switch to the preview version of the app? There\'s no going back without a reinstall.</string>
+    <string name="blue_pill">Take the blue pill</string>
+    <string name="red_pill">Take the red pill</string>
+
+    <string-array name="sort_by_list">
+        <item>날짜 (내림차순)</item>
+        <item>Date (oldest first</item>
+        <item>내용 (가나다순)</item>
+        <item>Name (Z to A)</item>
+    </string-array>
+    <string-array name="theme_list">
+        <item>Light / sans serif</item>
+        <item>Light / serif</item>
+        <item>Light / monospace</item>
+        <item>Dark / sans serif</item>
+        <item>Dark / serif</item>
+        <item>Dark / monospace</item>
+    </string-array>
+    <string-array name="font_size_list">
+        <item>Smallest</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Largest</item>
+    </string-array>
+    <string-array name="exported_filename_list">
+        <item>First line of text</item>
+        <item>First line + timestamp</item>
+        <item>Timestamp + first line</item>
+    </string-array>
+
+</resources>
